@@ -1,6 +1,6 @@
 from sys import argv
 if len(argv) != 4:
-    print('USAGE: python3 project.py <password> <input_file> <output_file>')
+    print('ERROR: python3 project.py <password> <input_file> <output_file>')
     exit()
 
 if not (argv[1].isalnum()):
