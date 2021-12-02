@@ -8,7 +8,7 @@ Membrii echipei:
 Hurloi Selena Andreea (grupa 142)
 Sandu Anastasia (grupa 142)
 Utilizare
-Mediu de lucru 
+Mediu de lucru:
 Python 3.10.0
 Metoda de rulare
 python3 xor.py <parola> <nume_fisier_input> <nume_fisier_output>
