@@ -1,14 +1,10 @@
 from sys import argv
-if len(argv) != 4:
-    print('ERROR: python3 project.py <password> <input_file> <output_file>')
-    exit()
-
-if not (argv[1].isalnum()):
-    print('ERROR: Password must be a string with lowercase or uppercase letters or numbers.')
-    exit()
 
 if len(argv[1]) < 10 or len(argv[1]) > 15:
-    print('ERROR: Password must have between 10-15 characters.')
+    print('Eroare : Parola trebuie sa aiba intre 10 si 15 caractere')
+    exit()
+if len(argv) != 4:
+    print('Eroare: python3 xor.py <parola> <input_file> <output_file>')
     exit()
     
 f = open(argv[2], "rb")
