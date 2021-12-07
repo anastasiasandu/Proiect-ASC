@@ -1,5 +1,5 @@
 # Proiect 0x00-ASC
-Rezolvare partea a doua: <br />py
+Rezolvare partea a doua: <br />
 Echipa noastra: ErrorsGenerators vs echipa adversa: Unbreakables <br />
 Parola echipei adverse  : Unbreakable2021 <br />
 Pentru prima parte am creat un script findkey1.py in python care xoreaza primele 30 de caractere din input.txt cu primele 30 de caractere din output, iar apoi verifica ce sir se repeta pentru a gasii cheia. <br />
@@ -11,7 +11,7 @@ Pentru a doua parte am gasit pe internet un cod ajutator care realizeaza decript
 Metoda de rulare partea a doua : <br />
 python3 findkey2.py -i <nume_fisier_input> -m 32 -f 32 -d <br />
 nume_fisier_input : output <br />
-Link-ul de la cod se gaseste in partea de surse de inspiratie <br />
+Link-ul de la codul gasit se gaseste la partea de surse de inspiratie <br />
 Introducere <br />
 Cerinta proiectului:<br /
 Scrieți scripturi python encrypt.py/decrypt.py care iau ca parametru în linia de comandă o cheie și un
