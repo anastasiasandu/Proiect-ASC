@@ -76,10 +76,7 @@ while i < len(argv):
 source_text = open(input_file, 'rb').read()
 
 if maxlen:
-    prob_lens = lungimea(source_text, maxlen)
-    print("Probable key lengths: ")
-    for prc, length in prob_lens:
-        print("   ", length, " - ", prc, "%", sep='')
+    prob_lens = lungimea(source_text, maxlen) 
     keylen = prob_lens[0][1]
 if keylen:
     key = parola(source_text, keylen, most_frequent)
