@@ -2,12 +2,12 @@
 Rezolvare partea a doua: <br />
 Echipa noastra: ErrorsGenerators vs echipa adversa: Unbreakables <br />
 Parola echipei adverse  : Unbreakable2021 <br />
-Pentru prima parte am creat un script findkey1.py in python care xoreaza primele 30 de caractere din input.txt cu primele 30 de caractere din output, iar apoi verifica ce sir se repeta pentru a gasii cheia. <br />
+Pentru prima parte am creat un script findkey1.py in python care xoreaza primele 30 de caractere (pentru a fi sigure ca si cea mai lunga posibila cheie se repeta, maximul fiind de 15 caractere) din input.txt cu primele 30 de caractere din output, iar apoi verifica ce sir se repeta (cu lungimea cuprinsa intre 10-15 caractere) pentru a gasii cheia. La final am afisat-o. <br />
 Metoda de rulare partea intai:  <br />
 python3 findkey1.py <nume_fisier_input> <nume_fisier_output> <br />
 nume_fisier_input : input.txt <br />
 nume_fisier_output :  output <br />
-Pentru a doua parte am gasit pe internet un cod ajutator care realizeaza decriptarea unui text criptat si afla cheia acestuia (se foloseste doar de textul criptat). Am adaptat acest cod pentru cerinta noastra. <br />
+Pentru a doua parte am gasit pe internet un cod ajutator care realizeaza decriptarea unui text criptat si afla cheia acestuia (se foloseste doar de textul criptat). Am adaptat acest cod pentru cerinta noastra. Mai intai am aflat cele mai probabile lungimi pentru cheie, dupa am sters toate repetitiile. Apoi am aflat cheia cu lungimea cea mai probabila (calculata mai sus) iar la final am afisat-o. <br />
 Metoda de rulare partea a doua : <br />
 python3 findkey2.py -i <nume_fisier_input> -m 32 -f 32 -d <br />
 nume_fisier_input : output <br />
